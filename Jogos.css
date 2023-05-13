@@ -50,12 +50,18 @@ left: calc(50% - 575px);
 border: 2px solid black;
 border-radius: 12px;
 padding: 10px;
-display: block;
+display: none;
 }
 .button {
     background-color: red;
     border-radius: 5px;
     padding: 5px;
-    
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.seila {
+    font-size: 40px;
 }
 
